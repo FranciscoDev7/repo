@@ -48,6 +48,20 @@ git add . => add tudo
 gir rm
 
 
+When Starting
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:FranciscoDev7/Blanc.git
+git push -u origin main
+
+
+When Using
+
+git config --global user.email "engmec.francisco@gmail.com"
+
 git add .
 git commit -m ""
 git push
