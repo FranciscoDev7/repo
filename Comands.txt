@@ -1,0 +1,46 @@
+Git Comands
+
+clone => bring repository that is hosted 
+somewhere like Github into a folder on your
+local machine
+
+
+add=> Track your files and changes 
+in Git
+
+commit => Save your files in Git
+
+push => Uplaod Git commits to a remote 
+repo, like Github
+
+
+pull => Downloads changes from remote
+repo to your local machine, 
+the opposite of push
+
+Understand some Git
+
+Everey commit you get an unique identifier for 
+that specific commit.
+Using github you are going to notice that 
+a green line means added and the red line means
+that you deleted that code, white stayed the same
+
+Generate key:
+ssh-keygen -t rsa -b 4096 -C "email@gmail.com"
+$ ssh-keygen -t rsa -b 4096 -C "EMAIL@gmail.com"
+
+Look at the public Key to paste at Github:
+cd ~/.ssh/
+ls
+cat nome_da_chave
+
+
+Set up to Vscode
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_rsa
+
+Best video on the subject:
+https://www.youtube.com/watch?v=nQDFBd5NFA8
+
