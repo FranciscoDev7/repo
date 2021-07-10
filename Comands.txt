@@ -45,8 +45,12 @@ Best video on the subject:
 https://www.youtube.com/watch?v=nQDFBd5NFA8
 
 git add . => add tudo
-
-
 gir rm
+
+
+git add .
+git commit -m ""
+git push
+
 
 
